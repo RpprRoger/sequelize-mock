@@ -16,8 +16,7 @@ var path = require('path'),
 	Errors = require('./errors'),
 	DataTypes = require('./data-types')({}),
 	QueryInterface = require('./queryinterface'),
-	// ModelManager works by itself, it doesn't require mocking
-	ModelManager = require('sequelize/lib/model-manager');
+	ModelManager = require('./model-manager');
 
 /**
  * Sequelize Mock Object. This can be initialize much the same way that Sequelize itself

@@ -27,13 +27,11 @@
     "url": "https://github.com/BlinkUX/sequelize-mock/issues"
   },
   "homepage": "https://github.com/BlinkUX/sequelize-mock#readme",
-  "peerDependencies": {
-    "sequelize": "> 2 <=4"
-  },
   "dependencies": {
     "bluebird": "^3.4.6",
     "inflection": "^1.10.0",
-    "lodash": "^4.16.4"
+    "lodash": "^4.16.4",
+    "toposort": "^1.0.6"
   },
   "devDependencies": {
     "coveralls": "^2.11.14",
